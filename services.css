@@ -1,0 +1,103 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: Black;
+    background-color: #e6e6e6;
+    
+    }
+
+  .topmenu {
+  background-color: whitesmoke;
+  overflow: hidden;
+   padding: 10px;
+}
+ 
+ .topmenu a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 50px 50px 5px 50px;
+  text-decoration: none;
+  font-size: 25px
+  
+ }
+   
+  .topmenu a:hover {
+  background-color: none;
+  color: black;
+}
+
+ .topmenu a.active {
+  background-color: none;
+  color: black;
+ 
+  }
+
+.menu-center {
+ position: right;
+ border-style: auto;
+}
+#homebanner {
+ background-color: red;
+ font-family: Brush Script MT, Brush Script Std, cursive ;
+ font-size: 470%;
+ padding: 20px;
+ text-align: center;
+}
+.services {
+   background-image: url('https://resize.hswstatic.com/w_828/gif/old-media.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 6;
+    border: ;
+    
+}
+.serviceinfo {
+    margin: auto;
+    border-radius: 15px;
+    width: 550px;
+    height: 850px;
+    font-size: 28px;
+    color: red;
+    line-height: 65px;
+    background-color: none;
+    
+   
+
+}
+/* .tapeprice{
+ font-size: 28px;
+ float:left;
+ color: white;
+ font-weight: bold;
+ height: 300px;
+ width: 450px;
+ border-radius: 20px;
+ background-color: none;
+ opacity: none;
+ }
+.photoprice{
+ font-size: 28px;
+ font-weight: bold;
+ color: white;
+ height: 300px;
+ width: 450px;
+ border-radius: 20px;
+ background-color: none;
+ opacity: none;
+ float: left;
+ }
+ */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: white;
+  text-align: center;
+}
+a {
+ text-decoration: none;
+}

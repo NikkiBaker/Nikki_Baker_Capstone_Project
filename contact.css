@@ -1,0 +1,87 @@
+.topmenu {
+    background-color: whitesmoke;
+    overflow: hidden;
+  }
+   
+   .topmenu a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 50px 50px;
+    text-decoration: none;
+    font-size: 20px
+   }
+     
+    .topmenu a:hover {
+    background-color: none;
+    color: black;
+     cursor: pointer;
+  }
+  
+   .topmenu a.active {
+    background-color: none;
+    color: black;
+  }
+  #homebanner {
+   background-color: red;
+   font-family: Brush Script MT, Brush Script Std, cursive ;
+   font-size: 350%;
+   padding: 40px;
+  }
+  .serviceinfo {
+      margin: auto;
+      border-radius: 15px;
+      width: 550px;
+      height: 200px;
+      font-family: verdana;
+      font-size: 24px;
+      color: black;
+      line-height: 65px;
+      background-color: none;
+   
+  }
+  form{
+   text-align: center;
+   margin-top: 50px;
+   transition: all 4s ease-in-out;
+  }
+  .form-control{
+   width: 600px;
+   background: transparent;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid black;
+   color: black;
+   font-size: 18px;
+   margin-bottom: 16px;
+   }
+  input{
+   height: 45px;
+  }
+  form .submit{
+   background:red;
+   border-color: transparent;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing; 2px;
+   height: 50px;
+   margin-top: 20px;
+  }
+  form .submit:hover
+  {
+       bacground-color: #f44336;
+       cursor: pointer;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: white;
+    text-align: center;
+    } 
+  a {
+   text-decoration: none;
+  }
