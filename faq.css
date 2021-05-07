@@ -1,0 +1,76 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: Black;
+    background-color: #white;
+    background-size: 100% 100%;
+/*     background-image: url('https://www.wallpaperflare.com/static/384/149/226/background-light-bright-point-wallpaper.jpg'); */
+    background-position-y: bottom;
+}
+  .topmenu {
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+ 
+ .topmenu a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 50px 50px;
+  text-decoration: none;
+  font-size: 20px
+ }
+   
+  .topmenu a:hover {
+  background-color: none;
+  color: black;
+   cursor: pointer;
+}
+
+ .topmenu a.active {
+  background-color: none;
+  color: black;
+}
+#homebanner {
+ background-color: red;
+ font-family: Brush Script MT, Brush Script Std, cursive ;
+ font-size: 350%;
+ padding: 30px;
+ text-align: center;
+}
+ .pageinfo {
+   background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F2020%2F05%2F26%2FGettyImages-142740254-2000.jpg');
+    background-size: 100% 100%;
+    /*     width: 100%; */
+/*     height: auto; */
+    text-align: center;
+    font-size: 6;
+    border: ;
+    padding: 75px;
+}
+    
+  .purpose {
+    width: 450px;
+    height: auto;
+    font-size: 20px;
+/*     font-family:  */
+    font-weight: bold;
+    color: black;
+    line-height: 55px;
+    background-color: transparent;
+    margin-bottom: 50px;
+/*     opacity: 0.45; */
+   /*margin: -200px 0 0 -94px;*/
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  } 
+a {
+ text-decoration: none;
+}
